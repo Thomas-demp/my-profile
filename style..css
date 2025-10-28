@@ -1,0 +1,112 @@
+
+
+body {
+  background-color: #F7F9FC;
+  color: #575F7D;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Titres */
+h1, h2 {
+  font-family: Courier, monospace;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 30px;
+  color: #575F7D;
+}
+
+h2 {
+  font-size: 22px;
+  color: #7ECE90;
+}
+
+/* Liens */
+a {
+  color: #6B72E1;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: black;
+}
+
+/* Conteneur */
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container { 
+		width: 600px;
+	}
+}
+@media (max-width: 500px) {
+	.container { 
+		width: 400px;
+	}
+}
+
+/* Sections délimitées avec ombre */
+.section {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 25px;
+  text-align: center;
+
+  /* effet d'ombre */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Photo plus petite */
+.photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #6B72E1;
+  margin: 10px 0;
+}
+
+/* Bouton */
+.button {
+  display: inline-block;
+  background-color: #6B72E1;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #575F7D;
+}
+
+/* Réseaux sociaux */
+.social {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social li {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+.social i {
+  font-size: 22px;
+  color: #6B72E1;
+}
+
+.social i:hover {
+  color: black;
+}
